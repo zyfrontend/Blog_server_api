@@ -1,10 +1,34 @@
-# 博客 api 服务
+# server
 
-```js
-MYSQL_HOST = localhost;
-MYSQL_PORT = 3306;
-MYSQL_USER = root;
-MYSQL_PWD = 0226;
-MYSQL_DB = test_db;
-JWT_SECRET = zzy;
+博客后台服务
+
+## QuickStart
+
+<!-- add docs here for user -->
+
+see [egg docs][egg] for more detail.
+
+### Development
+
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
 ```
+    // "bcrypt": "^5.0.1",
+
+### Deploy
+
+```bash
+$ npm start
+$ npm stop
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
+- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+
+
+[egg]: https://eggjs.org
